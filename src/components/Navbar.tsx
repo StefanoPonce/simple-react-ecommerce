@@ -43,7 +43,7 @@ const Navbar: FC = () => {
             className="text-4xl font-bold dark:text-white"
             data-test="main-logo"
           >
-            Shopify
+            Tienda Virtual de Comercio HN
           </Link>
 
           <div className="hidden sm:block">
@@ -56,14 +56,14 @@ const Navbar: FC = () => {
               className="text-xl font-bold"
               data-test="main-products"
             >
-              Products
+              Productos
             </Link>
             <Link
               to="/categories"
               className="text-xl font-bold"
               data-test="main-categories"
             >
-              Categories
+              Categorias
             </Link>
             <div className="flex items-center">
               {username !== "" ? (
@@ -195,7 +195,7 @@ const Navbar: FC = () => {
                       }}
                       data-test="login-btn"
                     >
-                      Profile
+                      Perfil
                     </span>
                   )}
                 </div>
